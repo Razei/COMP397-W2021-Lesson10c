@@ -16,7 +16,6 @@ public class Pauseable : MonoBehaviour
     void Start()
     {
         isGamePaused = false;
-
         agents = FindObjectsOfType<NavMeshAgent>().ToList();
 
         foreach (var enemy in FindObjectsOfType<CryptoBehaviour>())

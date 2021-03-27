@@ -123,6 +123,4 @@ public class PlayerBehaviour : MonoBehaviour
     {
         ToggleMinimap();
     }
-
-   
 }

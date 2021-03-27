@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SceneData", menuName = "Data/SceneData")]
-public class SceneDataSO : ScriptableObject
+public class SceneDataScriptableObject : ScriptableObject
 {
     // Player Data
+    [Header("Player Data")]
     public Vector3 playerPosition;
+    public Quaternion playerRotation;
     public int playerHealth;
-
 }
