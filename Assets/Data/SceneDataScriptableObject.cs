@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SceneData", menuName = "Data/SceneData")]
+[System.Serializable]
 public class SceneDataScriptableObject : ScriptableObject
 {
     // Player Data
